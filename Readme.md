@@ -6,7 +6,7 @@
 
 [![npm version](https://badge.fury.io/js/faker.svg)](http://badge.fury.io/js/faker)
 
-[![OpenCollective](https://opencollective.com/fakerjs/backers/badge.svg)](#backers) 
+[![OpenCollective](https://opencollective.com/fakerjs/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/fakerjs/sponsors/badge.svg)](#sponsors)
 
 ## Demo
@@ -37,7 +37,7 @@ curl http://faker.hook.io?property=name.findName&locale=de
 
 ### Node.js
 
-    var faker = require('faker');
+    var faker = require('@benmaruchu/faker');
 
     var randomName = faker.name.findName(); // Rowan Nikolaus
     var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
@@ -287,7 +287,7 @@ faker.locale = "de";
 
 ### Individual Localization Packages
 
-As of vesion `v3.0.0` faker.js supports incremental loading of locales. 
+As of vesion `v3.0.0` faker.js supports incremental loading of locales.
 
 By default, requiring `faker` will include *all* locale data.
 
@@ -295,7 +295,7 @@ In a production environment, you may only want to include the locale data for a 
 
 ```js
 // loads only de locale
-var faker = require('faker/locale/de');
+var faker = require('@benmaruchu/faker/locale/de');
 ```
 
 ## Setting a randomness seed
