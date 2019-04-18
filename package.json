@@ -53,7 +53,7 @@
     "ink-docstrap": "1.1.4",
     "jsdoc": "^3.4.0",
     "jshint": "0.9.0",
-    "lodash": "^4.6.1",
+    "lodash": "^4.17.11",
     "mocha": "^3.2.0",
     "node-minify": "*",
     "optimist": "0.3.5",
